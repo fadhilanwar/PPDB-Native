@@ -1,0 +1,207 @@
+/* ANIMASI MASUK */
+
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+    
+  }
+
+  /* ANIMASI MASUK SELESAI */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* ADMIN */
+
+
+.left{
+    width: 100%;
+    height: 70px;
+    /* background-color: #0a67ff; */
+    background-color: aliceblue;
+    /* align-items: center; */
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    /* animation: transitionIn 0.75s; */
+    padding-top: 20px;
+}
+
+.right{
+    background-color: #31689c;
+    /* margin: 5px; */
+    height: fit-content;
+        /* animation: transitionIn 0.75s; */
+
+    padding: 50px;
+}
+
+input{
+    /* background-color: #000000; */
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+select{
+    height: 30px;
+    margin-bottom: 10px;
+
+}
+
+
+.logo-wrap{
+    padding-top: 30px;
+    
+    /* background-color: red; */
+}
+
+.logo-wrap img {
+    margin-left: 70px;
+    width: 300px;
+}
+
+
+
+.kartu {
+	/* background-color: rgb(255, 255, 255); */
+    background-color: #eeee;
+    /* background-color: red; */
+    margin-left: 10%;
+    /* position: relative;
+    top: 40px; */
+    animation: transitionIn 0.75s;
+
+    
+	padding: 1rem 2rem;
+	/* width: 300px; */
+    width: 50%;
+    height: fit-content;
+	box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.315);
+	border-radius: 5px;
+}
+
+.info-form h3{
+    text-decoration: none;
+}
+
+.info-form{
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.kartu-content {
+	width: 100%;
+    margin-top: 15px;
+    /* background-color: red; */
+    /* margin: 10px; */
+    /* text-align: center; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.kartu-judul {
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.input form label {
+	padding: 0;
+	font-size: 18px;
+	
+}
+
+.user {
+	margin-bottom: 12px;
+}
+
+.textfield {
+	font-size: 16px;
+	margin-top: 5px;
+	outline: none;
+	width: 90%;
+	border: none;
+	border-bottom: 1px solid #000000;
+	background-color: #0e6afd00;
+	padding: 3px 14px;
+}
+
+.button {
+	display: flex;
+	justify-content: space-between;
+align-items:  center; 
+/* background-color: red;    */
+}
+
+
+
+.btn {
+	padding-bottom: 9px 13px ;
+    padding-left: 15px;
+    margin-top: 10px;
+    
+    padding-right: 15px;
+	background-color: #13a500;
+	color: white;
+	font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 200    ;
+	border: none;
+	cursor: pointer;
+	border-radius: 7px;
+    text-align: center;
+}
+
+.btn:hover {
+	
+    background-color: #5596ff;
+}
+
+.btn-cancel {
+	background-color: #a50000;
+	
+    padding: 5px;
+	color: white;
+	font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 200    ;
+	border: none;
+	cursor: pointer;
+	border-radius: 7px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.btn-cancel:hover {
+	
+    background-color: #a51313;
+}
+
+.button-ruang{
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+

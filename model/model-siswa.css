@@ -1,0 +1,440 @@
+ /* ANIMASI MASUK */
+
+ @keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+    
+  }
+
+  /* ANIMASI MASUK SELESAI */
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+    /* display: flex; */
+    /* background-image: ; */
+}
+
+
+.header{
+    background-color: rgb(3, 81, 155);
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    height: 160px;
+    color: wheat;
+    /* position: fixed; */
+    /* display: flex; */
+    
+}
+
+.top-header{
+    background-color: white;
+    height: 65%;
+    
+    display: flex;
+    
+}
+
+.top-header .logo{
+    /* background-color: red; */
+    width: 30%;
+}
+
+.top-header .logo img{
+    width: 100px;
+}
+
+.top-header .information{
+    /* background-color: blueviolet; */
+    text-align: center;
+    
+    font-family: Arial, Helvetica, sans-serif ;
+    color: black;
+    width: 40%;
+}
+
+
+
+.top-header .information h2{
+    /* margin-bottom: 20px; */
+    color: black;
+    height: fit-content;
+    /* background-color: blue; */
+}
+
+.top-header .information h1{
+    /* margin-bottom: 20px; */
+    color: black;
+    height: fit-content;
+    position: relative;
+    bottom: 16px;
+    text-decoration: none;
+    /* background-color: blue; */
+}
+
+.top-header .jarak{
+    /* background-color: aquamarine; */
+    width: 30%;
+    padding-left: 40px;
+    color: black;
+    font-size: 13px;
+    /* padding: 5px; */
+}
+
+.top-header .jarak img{
+    /* background-color: aquamarine; */
+    width: 20px;
+}
+
+.top-header .jarak div{
+    /* padding: 5px; */
+    width: fit-content;
+    /* background-color: blue; */
+    float: right;
+    /* padding: 10px; */
+    /* margin-top: 10px; */
+}
+
+.top-header .jarak table{
+    margin-left: 90px;
+    margin-top: 10px
+}
+.bottom-header{
+    display: flex;
+    /* background-color: red; */
+    
+    height: 35%;
+    
+}
+
+.ruang-dash {
+    /* background-color: red; */
+    /* display: flex;
+    align-items: center; */
+    /* color: white; */
+    font-weight: 600;
+    margin-left: -40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.wrap-after{
+    /* background-color: red; */
+    width: fit-content;
+}
+
+.wrap-btn-login{
+    /* background-color: purple; */
+    /* background-color: red; */
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-area-login:hover{
+    padding: 12px;
+    background-color: blue;
+}
+
+
+
+
+
+.one{
+    background-color: black;
+}
+
+.two{
+    background-color: black;
+}
+
+.three{
+    background-color: black;
+}
+
+.header ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header ul li a {
+    color: antiquewhite;
+    
+}
+
+.wrapper-content{
+    display: flex;
+}
+
+.main-input{
+    /* background-color: #7899b8; */
+    animation: transitionIn 0.75s;
+
+    color: antiquewhite;
+    
+    width: 50%;
+    padding: 10px;
+    /* height: 140pc; */
+    height: auto;
+}
+
+.main-content{
+    /* animation: transitionIn 0.75s; */
+
+    width: 50%;
+    height: fit-content;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: blue; */
+    
+    
+}
+.image-ti{
+    width: 100%;
+    background-color: blue;
+    height: 350px;
+    background-image: url(../icon/smkti.jpg);
+    background-size: cover;
+    
+}
+
+.image-ti2{
+    width: 100%;
+    background-color: blue;
+    height: 350px;
+    background-image: url(../icon/smktiHb.jpg);
+    background-size: cover;
+    
+}
+
+.content{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* AFTER DAFTAR */
+
+.field-status-dash{
+    /* background-color: antiquewhite; */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+    /* color: aliceblue; */
+    padding: 5px;
+}
+
+.field-status img{
+    /* background-color: red; */
+    margin-top: -20px;
+}
+
+
+
+
+.misal{
+    /* background-color: purple; */
+    width: 100%;
+    
+    height: 50px;
+}
+
+.misal .hov1 a{
+    /* background-color: rgb(189, 139, 139); */
+    padding: 14px;
+    position: relative;
+    /* top: 3px; */
+    /* padding-right: 6.5pc; */
+    display: flex;
+
+}
+
+.misal:hover{
+    background-color: #2f5f8f;
+    /* background-color: white; */
+    transition: 0.3s;
+    /* color: black; */
+    
+}
+
+
+.field-status h1{
+    color: black;
+    /* background-color: red; */
+    margin-left: 70px;
+    text-decoration: underline;
+}
+.info-status{
+    /* background-color: red; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrap-area-login{
+    background-color: navy;
+    padding: 15px;
+    width: fit-content;
+    border-radius: 7px;
+    display: flex;
+}
+
+.wrap-area-login img{
+    margin-left: 20px;
+}
+
+.area-login a{
+    color: white;
+    /* background-color: red; */
+    padding-right: 20px;
+    
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    /* float: right; */
+    
+}
+
+/* AFTER DAFTAR SELESAI */
+
+/* FAQ MODEL */
+
+.wrap-faq{
+    width: fit-content;
+    height: fit-content;
+    /* padding: 10px; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    /* border-radius: 30px; */
+    border-top-right-radius: 20px;
+    /* border-top-left-radius: 20px;     */
+    margin-bottom: 15px;
+    border-bottom-left-radius: 20px;
+
+    
+}
+
+
+
+.bubble{
+    background-color: whitesmoke;
+    /* background-color: blueviolet; */
+    width: 95%;
+    color: black;
+    /* padding: 10px; */
+    display: flex;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.bubble2{
+    /* background-color: blueviolet; */
+    height: fit-content;
+    /* background-color: whitesmoke; */
+    width: 95%;
+    color: black;
+    /* padding: 10px; */
+    display: flex;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+
+.identitas-question{
+
+    /* background-color: red; */
+    width: fit-content;
+}
+
+.question{
+
+    /* background-color: blue; */
+    width: fit-content;
+    padding-top: 7px;
+}
+
+
+
+/* FAQ MODEL SELESAI */
+
+
+/* MODEL STRUK */   
+
+.wrapper-siswa-cetak{
+    /* background-color: red; */
+    background-color: white;
+    padding: 20px;
+}
+
+.wrapper-struk{
+    width: 100%;
+    height: fit-content;
+}
+
+.head-struk{
+    /* background-color: red; */
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.struk-status{
+    /* background-color: red; */
+    text-align: left;
+    margin-left: 90px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.wrapper-tabel{
+    /* background-color: red; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper-tabel-2{
+    /* background-color: red; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tbl-struk{
+    border-collapse: collapse;
+    font-size: 15pt;
+    /* border: 0.2px solid #31689c; */
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    /* background-color: #ffff; */
+    width: 75%;
+    text-align: center;
+}
+
+
+/* MODEL STRUK SELESAI */

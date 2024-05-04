@@ -1,0 +1,1319 @@
+  /* ANIMASI MASUK */
+
+  @keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+    
+  }
+
+  /* ANIMASI MASUK SELESAI */
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.wrapper {
+
+    display: flex;
+    position: relative;
+}
+
+.sidebar {
+    /* background-color: red; */
+    background-color: #31689c;
+    width: 200px;
+    height: 2000px;
+    position: fixed;
+    z-index: 9999;
+}
+
+.head-sidebar {
+    /* background-color: white; */
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: whitesmoke;
+    
+}
+
+.menu {
+    /* background-color: #31689c; */
+    /* background-color: blue; */
+    height: fit-content;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-menu{
+    background-color: #31689c;
+    /* background-color: red; */
+    /* margin-left: 20px; */
+    font-size: 17px;
+}
+
+.navbar {
+    /* background-color: red; */
+    /* background-color: #7899b8;   */
+    background-color: white;
+    width: 100%;
+    padding-left: 200px;
+    height: 70px;
+    position: fixed;
+    /* justify-content: end; */
+    
+    display: flex;
+    
+
+}
+
+.navbar .bg-wire{
+    /* background-color: red; */
+    width: 220px;
+    height: 60px;
+    background-image: url("../icon/Circuit\ Primary.svg");
+    background-size: cover;
+    align-items: center;
+}
+
+.navbar ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.navbar ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.untuk-jarak-nav {
+    /* background-color: red; */
+    width: 400px;
+}
+
+.main-content {
+    /* background-color: red; */
+    background-color: #EAEBED;
+    
+    width: 100%;
+    /* position: relative; */
+    /* top: 50px; */
+    padding-top: 50px;
+    margin-left: 200px;
+    padding-bottom: 180px;
+
+    height: fit-content;
+}
+
+.main-content-siswa {
+    /* background-color: red; */
+    animation: transitionIn 0.75s;
+    width: 1166px;
+    /* position: relative; */
+    /* top: 50px; */
+    padding-top: 50px;
+    margin-left: 200px;
+    height: fit-content;
+}
+
+.ruang {
+    display: flex;
+    align-items: center;
+    color: black;
+    /* background-color: red; */
+    margin-top: 10px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+
+
+
+
+.hov1 .logout {
+    color: red;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content  {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px;
+    /* height: fit-content */
+    animation: transitionIn 0.75s;
+
+}
+
+.dropdown {
+    margin-top: 5px;
+    position: relative;
+    /* background-color: red; */
+    left: 1000px;
+    justify-content: end;
+}
+
+.dropdown-siswa {
+    margin-top: 5px;
+    position: relative;
+    /* left: 630px; */
+}
+
+.ruang-siswa {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* ANIMASI HOVER SIDE-HEAD */
+
+
+.misal{
+    /* background-color: purple; */
+    width: 100%;
+    
+    height: 50px;
+}
+
+.misal .hov1 a{
+    /* background-color: rgb(189, 139, 139); */
+    padding: 14px;
+    position: relative;
+    /* top: 3px; */
+    /* padding-right: 6.5pc; */
+    display: flex;
+
+}
+
+.misal .hov1 img{
+    padding-right: 10px ;
+
+}
+
+
+
+.misal .hov1-s a{
+    /* background-color: red; */
+    padding: 14px;
+    position: relative;
+    /* top: 15px; */
+    padding-right: 5.9pc;
+
+}
+
+.misal1{
+    /* background-color: purple; */
+    width: 100%;
+    
+    height: 50px;
+}
+
+.misal1 .hov1 a{
+    background-color: red;
+    padding: 4px;
+    position: relative;
+    /* top: 3px; */
+    padding-right: 6.5pc;
+    display: flex;
+
+}
+
+.misal1 .hov1-ss a{
+    /* background-color: red; */
+    padding: 14px;
+    position: relative;
+    top: 15px;
+    padding-right: 8.75pc;
+    /* display: flex; */
+
+}
+
+.misal2{
+    /* background-color: purple; */
+    width: 100%;
+    
+    height: 50px;
+}
+
+.misal2 .hov1 a{
+    /* background-color: red; */
+    padding: 14px;
+    position: relative;
+    top: 15px;
+    padding-right: 6.7pc;
+
+}
+
+.misal2 .hov1-sss a{
+    /* background-color: red; */
+    padding: 14px;
+    position: relative;
+    top: 15px;
+    padding-right: 8.6pc;
+
+}
+
+.misal3{
+    /* background-color: purple; */
+    width: 100%;
+    
+    height: 50px;
+}
+
+.misal3 .hov1 a{
+    /* background-color: red; */
+    padding: 14px;
+    position: relative;
+    top: 15px;
+    padding-right: 6.5pc;
+
+}
+
+.misal4{
+    /* background-color: purple; */
+    width: 100%;
+    
+    height: 50px;
+}
+
+.misal4 .hov1 a{
+    /* background-color: red; */
+    padding: 14px;
+    position: relative;
+    top: 15px;
+    padding-right: 6.5pc;
+
+}
+
+.misal5{
+    /* background-color: purple; */
+    width: 100%;
+    
+    height: 50px;
+}
+
+.misal5 .hov1 a{
+    /* background-color: red; */
+    padding: 14px;
+    position: relative;
+    top: 15px;
+    padding-right: 6.5pc;
+
+}
+
+.misal5 .hov1-keluar a{
+    /* background-color: red; */
+    padding: 14px;
+    position: relative;
+    top: 15px;
+    padding-right: 8.7pc;
+    color: red;
+
+}
+
+.misal:hover{
+    background-color: #2f5f8f;
+    /* background-color: white; */
+    transition: 0.3s;
+    /* color: black; */
+    
+}
+
+.misal1:hover{
+    background-color: #2f5f8f;
+    
+}
+
+.misal2:hover{
+    background-color: #2f5f8f;
+    
+}
+
+.misal3:hover{
+    background-color: #2f5f8f;
+    
+}
+
+.misal4:hover{
+    background-color: #2f5f8f;
+    
+}
+
+.misal5:hover{
+    background-color: #2f5f8f;
+    
+}
+
+.hov2{
+    /* background-color: red; */
+    padding: 15px;
+}
+
+.hov2:hover{
+    background-color: #2f5f8f;
+    
+}
+
+.hov3{
+    /* background-color: red; */
+    padding: 15px;
+}
+
+.hov3:hover{
+    background-color: #2f5f8f;
+    
+}
+
+.hov4{
+    /* background-color: red; */
+    padding: 15px;
+}
+
+.hov4:hover{
+    background-color: #2f5f8f;
+    
+}
+
+/* ANIMASI HOVER SIDE-HEAD  */
+
+
+.ruang-dash {
+    /* background-color: red; */
+    /* display: flex;
+    align-items: center; */
+    /* color: white; */
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* SEARCH-BOX MODEL */
+.wrap-search{
+    margin-left: 30px;
+    background-color: #31689c;
+    border-radius: 2px;
+    width: fit-content;
+    height: 35px;
+    padding: 7px;
+}
+
+.wrap-search-2{
+    margin-left: 30px;
+    background-color: #31689c;
+    border-radius: 2px;
+    width: 350px;
+    height: 35px;
+    padding: 7px;
+    color: white;
+}
+
+
+
+.wrap-search    .btn-search:hover{
+
+    background-color: rgb(1, 163, 1);
+    cursor: pointer;
+
+}
+
+.wrap-search .btn-search {
+    width: 60px;
+    background-color: green;
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+
+}
+
+.wrap-kelas{
+    /* background-color: red; */
+    display: flex;
+}
+
+.wrap-btn-cetak{
+    /* background-color: blue; */
+    height: fit-content;
+    margin-left: 40px;
+    width: 70%;
+}
+
+
+.wrap-btn-cetak .cetak-bks{
+    background-color: green;
+    height: fit-content;
+    margin-left: 40px;
+    width: 70%;
+}
+
+.wrap-btn-cetak a{
+    margin-left: 350px;
+}
+
+.wrap-btn-cetak .btn-cetak-kelas{
+    cursor: pointer; 
+    
+}
+
+
+.wrap-search-kelas{
+    margin-left: 30px;
+    background-color: #31689c;
+    /* background-color: red; */
+    border-radius: 2px;
+    width: fit-content;
+    height: 35px;
+    padding: 7px;
+    margin-bottom: 40px;
+}
+
+.wrap-search-kelas    .btn-search:hover{
+
+    background-color: rgb(1, 163, 1);
+    cursor: pointer;
+
+}
+
+.wrap-search-kelas .btn-search {
+    width: 60px;
+    background-color: green;
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+
+}
+
+
+/* SEARCH-BOX MODEL SELESAI */
+
+
+/* MODEL TABEL */
+
+.tbl-siswa{
+    border-collapse: collapse;
+    font-size: 12pt;
+    /* border: 0.2px solid #31689c; */
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    /* background-color: #ffff; */
+    width: 100%;
+    text-align: center;
+}
+
+.nama-specified{
+    text-align: left;
+}
+
+
+
+.tbl-petugas{
+
+    border-collapse: collapse;
+    font-size: 12pt;
+    /* border: 1px solid #2f5f8f; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    /* background-color: #ffff; */
+    width: 100%;
+    text-align: center;
+}
+
+.area-konten{
+    /* background-color: red; */
+    width: 1065px;
+}
+
+.tbl-kelas{
+
+    border-collapse: collapse;
+    /* font-size: 15pt; */
+    /* border: 1px solid #2f5f8f; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    /* background-color: #ffff; */
+    /* font-size: 10pt; */
+    width: 100%;
+    
+}
+
+
+
+.tbl-kelas td{
+    text-align: center;
+}
+
+.jurusan-specified{
+    text-align: left;
+    position: relative;
+    /* background-color: blue; */
+    /* left: 60px; */
+    padding-left: 90px; ;
+}
+
+.status-specified{
+    text-align: left;
+    /* position: relative; */
+    /* background-color: blue; */
+    /* left: 60px; */
+    /* padding-left: 90px; ; */
+}
+
+
+
+td{
+    padding: 3px;
+    height: 25px;
+}
+
+.tbl-siswa tr:nth-child(even){
+    background-color: #e0e0e0;
+    /* background-color: red; */
+
+}
+
+.tbl-petugas tr:nth-child(even){
+    /* background-color: #cecccc;
+     */
+     background-color: #e0e0e0;
+
+}
+
+.tbl-kelas tr:nth-child(even){
+    background-color: #e0e0e0;
+}
+
+th{
+    background-color: #31689c;
+    color: white;
+    height: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tabel-sisi{
+    margin-left: 90px;
+    margin-top: -90px;
+    background-image: url("../icon/Colored\ Shapes.svg");
+    background-size: cover;
+    /* background-color: red; */
+    width: 540px;
+    height: 700px;
+}
+
+.tbl-seleksi{
+    /* border-collapse: collapse; */
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: #ffff;
+}
+
+.tbl-seleksi td{
+    border: 1px solid #51554C;
+    width: 300px;
+    
+}
+
+.tbl-siswa-nilai {
+    border-collapse: collapse;
+    font-size: 12pt;
+    /* border: 0.2px solid #31689c; */
+    
+    /* background-color: #ffff; */
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* TABEL SELESAI */
+
+
+.contenti {
+    padding: 20px;
+    font-family: Segoe UI;
+    animation: transitionIn 0.75s;
+
+}
+
+.main-contenti {
+    /* background-color: blue; */
+    height: fit-content;
+    padding: 20px;
+    animation: transitionIn 0.75s;
+    /* overflow-y: hidden; */
+    color: black;
+    font-weight: 400;
+    display: flex;
+
+
+    /* font-size: 70px; */
+
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    outline: none;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.wrap-dash{
+    /* background-color: red; */
+    background-image: url("../icon/Wave.svg");
+    background-size: cover;
+    width: 1150px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    
+}
+
+
+
+
+select {
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.select-jurusan {
+    margin-bottom: 20px;
+    padding: 5px 0px;
+    outline: none;
+    font-size: 15px;
+    width: 150px;
+}
+
+.btn-submit{
+    border: none;
+    background-color: green;
+    border-radius: 7.7px;
+    padding: 10px;
+    color: white;
+    cursor: pointer ;
+}
+
+.btn-cancel{
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    color: wheat;
+}
+
+.btn-submit:hover{
+    background-color: #31689c;
+}
+
+.btn-submit-petugas{
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+
+    color: white;
+    cursor: pointer ;
+}
+
+.btn-rekap{
+    background-color: green;
+    width: fit-content;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.btn-rekap-onClass{
+    background-color: green;
+    width: fit-content;
+    padding: 5px;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    /* margin-bottom: 10px; */
+    border-radius: 10px;
+}
+
+.btn-submit-petugass{
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    padding: 10px;
+    /* width: 50%; */
+
+    color: white;
+    cursor: pointer ;
+}
+
+.beri-kelas a{
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.btn-submit-petugas:hover{
+    background-color: rgb(0, 155, 0);
+}
+
+.satu {
+    /* background-color: red; */
+    /* display: flex; */
+    align-items: center;
+    /* outline: 0.5px solid #2f5f8f; */
+    /* margin-right: 90px; */
+    width: 500px;
+    /* padding: 10px; */
+    /* display: flex; */
+
+}
+
+
+
+.satu-sat {
+    /* background-color: red; */
+    /* margin-right: 90px; */
+    width: fit-content;
+    padding: 10px;
+
+}
+
+
+.satu-sate {
+    /* background-color: red; */
+    /* margin-right: 90px; */
+    position: relative;
+    right: 20px;
+    width: fit-content;
+    padding: 10px;
+
+}
+
+.dua {
+    /* background-color: red; */
+    display: flex;
+    width: fit-content;
+    /* justify-content: space-between; */
+}
+
+.dua a{
+    padding-top: 30px;
+    width: 30%;
+    margin-left: 40px;
+    position: relative;
+    right: 20px;
+    bottom: 7px;
+    text-decoration: none;
+}
+
+
+
+
+
+.empat {
+    /* background-color: white; */
+    width: fit-content;
+}
+
+/* EDIT FORM */
+.tiga {
+    
+    background-color: #31689c;
+    /* background-color: red; */
+    border-radius: 15px;
+    width: 400px;
+    padding: 20px;
+    margin-left: 40px;
+    color: white;
+    padding-left: 40px;
+    
+
+}
+
+.tiga h2 {
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+.bag-info{
+    /* background-color: red; */
+    width: fit-content;
+    padding-left: 20px;
+    /* text-align: right; */
+}
+
+.bag-info td{
+    
+    padding: 19px;
+}
+
+.wrapper-edit{
+    /* background-color: red; */
+    display: flex;
+    
+    /* justify-content: space-evenly; */
+}
+
+table{
+    border: none;
+}
+
+table input{
+    margin-top: 10px;
+}
+
+table select{
+    margin-top: 10px;
+}
+
+.btn-akun{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    
+    margin-bottom: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 139px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    border-radius: 10px ;
+}
+
+.btn-akun:hover{
+    background-color: rgb(43, 134, 43);
+}
+
+.area-konten a{
+
+    text-decoration: none;
+}
+
+
+.header-area-input{
+    /* background-color: red ; */
+     width: fit-content;
+      height: fit-content;
+       font-size: 24px;
+        padding-bottom: 15px;
+}
+
+
+
+.area-edit{
+    /* background-color: red; */
+    margin-left: 100px;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid #2f5f8f;
+    /* background-color: #7899b8; */
+}
+
+/* EDIT FORM SELESAI */
+
+
+/* DASHBOARD MODEL */
+
+
+.cta {
+	--shadowColor: 150  60% 40%;
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	/* background: hsl(187 70% 85%); */
+    /* color: whitesmoke; */
+    background-color: rgb(0, 155, 0);
+	/* max-width: 50rem; */
+	/* width: 25%; */
+    height: 190x;
+    width: 180px;
+	box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);
+	border-radius: 0.8rem;
+	/* overflow: hidden; */
+	border: 0.2rem solid black;
+    margin-right: 100px;
+}
+
+.card-top{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    color: #eee;
+    height: 70px;
+}
+
+
+.info-txt{
+    height: fit-content;
+    text-align: right;
+    /* background-color: brown; */
+    font-size: 25px;
+    font-family: serif;
+    width: 90px;
+}
+
+.card-bottom{
+    /* background-color: yellow; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    
+    /* position: relative; */
+    /* left: 200px; */
+    /* float: right ; */
+}
+
+p{
+    color: whitesmoke;
+}
+
+.cta .cta__text-column h2{
+    color: #eee;
+}
+
+
+.cta__text-column {
+	/* padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw); */
+	/* flex: 1 0 10%; */
+    padding: 10px;
+    padding-right: 20px;
+}
+
+
+
+
+/* --------------------------------------- */
+
+.cta-1 {
+	--shadowColor: 190  60% 40%;
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	/* background: hsl(187 70% 85%); */
+    /* color: whitesmoke; */
+    background-color: #31689c;
+	/* max-width: 50rem; */
+	/* width: 25%; */
+    height: 190x;
+    width: 180px;
+	box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);
+	border-radius: 0.8rem;
+	/* overflow: hidden; */
+	border: 0.2rem solid black;
+    margin-right: 100px;
+}
+
+.card-top-1{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    color: #eee;
+    height: 70px;
+}
+
+
+
+.info-txt-1{
+    height: fit-content;
+    text-align: right;
+    /* background-color: brown; */
+    font-size: 40px;
+    width: 90px;
+}
+
+.card-bottom-1{
+    /* background-color: yellow; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    
+    /* position: relative; */
+    /* left: 200px; */
+    /* float: right ; */
+}
+
+p{
+    color: whitesmoke;
+}
+
+.cta-1 .cta__text-column-1 h2{
+    color: #eee;
+}
+
+
+.cta__text-column-1 {
+	/* padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw); */
+	/* flex: 1 0 10%; */
+    padding: 10px;
+    padding-right: 20px;
+}
+
+
+/* ------------------------ */
+
+
+.cta-2 {
+	--shadowColor: 290  60% 40%;
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	/* background: hsl(187 70% 85%); */
+    /* color: whitesmoke; */
+    background-color: rgb(146, 61, 139);
+	/* max-width: 50rem; */
+	/* width: 25%; */
+    height: 190x;
+    width: 180px;
+	box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);
+	border-radius: 0.8rem;
+	/* overflow: hidden; */
+	border: 0.2rem solid black;
+    margin-right: 100px;
+}
+
+.card-top-2{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    color: #eee;
+    height: 70px;
+}
+
+
+
+.info-txt-2{
+    height: fit-content;
+    text-align: right;
+    /* background-color: brown; */
+    font-size: 40px;
+    width: 90px;
+}
+
+.card-bottom-2{
+    /* background-color: yellow; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    
+    /* position: relative; */
+    /* left: 200px; */
+    /* float: right ; */
+}
+
+p{
+    color: whitesmoke;
+}
+
+.cta .cta__text-column h2{
+    color: #eee;
+}
+
+
+.cta__text-column-2 {
+	/* padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw); */
+	/* flex: 1 0 10%; */
+    padding: 10px;
+    padding-right: 20px;
+}
+
+
+/* ================ */
+
+.cta-3 {
+	--shadowColor: 20  60% 40%;
+	/* display: flex; */
+	/* flex-wrap: wrap; */
+	/* background: hsl(187 70% 85%); */
+    /* color: whitesmoke; */
+    background-color: brown;
+	/* max-width: 50rem; */
+	/* width: 25%; */
+    height: 190x;
+    width: 180px;
+	box-shadow: 0.65rem 0.65rem 0 hsl(var(--shadowColor) / 1);
+	border-radius: 0.8rem;
+	/* overflow: hidden; */
+	border: 0.2rem solid black;
+    margin-right: 100px;
+}
+
+.card-top-3{
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    color: #eee;
+    height: 70px;
+}
+
+
+
+.info-txt-3{
+    height: fit-content;
+    text-align: right;
+    /* background-color: brown; */
+    font-size: 40px;
+    width: 90px;
+}
+
+.card-bottom-3{
+    /* background-color: yellow; */
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    
+    
+    /* position: relative; */
+    /* left: 200px; */
+    /* float: right ; */
+}
+
+p{
+    color: whitesmoke;
+}
+
+.cta .cta__text-column h2{
+    color: #eee;
+}
+
+
+.cta__text-column-3 {
+	/* padding: min(2rem, 5vw) min(2rem, 5vw) min(2.5rem, 5vw); */
+	/* flex: 1 0 10%; */
+    padding: 10px;
+    padding-right: 20px;
+}
+
+
+
+  /* DASHBOARD MODEL SELESAI */
+
+/* DAFTAR ULANG - Nilai */
+
+.area-input-nilai{
+    /* background-color: red; */
+    display: flex;
+    /* border: 1px solid #2f5f8f; */
+    justify-content: center;
+}
+
+.card-ident{
+    /* background-color: #31689c;
+    color: #EAEBED; */
+    position: relative;
+    right: 10px;
+    border: 1px solid #2f5f8f;
+    width: fit-content;
+    padding: 20px;
+    
+}
+
+.header-area-input-nilai{
+    /* background-color: blue; */
+    position: relative;
+    right: 60px;
+     width: fit-content;
+      height: fit-content;
+       font-size: 24px;
+        padding-bottom: 15px;
+}
+
+/* DAFTAR ULANG - Nilai SELESAI */
+
+/* MODEL REKAP */
+
+.wrapper-status{
+    /* background-color: red; */
+    /* background-color: white; */
+    padding: 20px;
+}
+
+
+.wrapper-status-isi{
+    width: 100%;
+    height: fit-content;
+    margin-top: 40px;
+}
+
+.tbl-siswa-status{
+    border-collapse: collapse;
+    font-size: 12pt;
+    border: 1px solid black;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    /* background-color: #ffff; */
+    width: 100%;
+    text-align: center;
+
+}
+
+.tbl-siswa-status th{
+    
+
+    color: black;
+    background-color: white;
+} 
+
+.top-status{
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* MODEL REKAP SELESAI */
+
+
+
